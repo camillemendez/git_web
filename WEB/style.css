@@ -1,0 +1,170 @@
+@font-face
+	{
+		font-family: 'YorkBaile';
+		src: url('assets/polices/yorkbailehill.otf'),
+			 url('assets/polices/yorkbailehill.ttf');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+/*
+#cape_orange
+{
+	
+	background : url('assets/images/la_cape.png');
+	background-repeat : no-repeat;
+	background-position : right;
+	margin : 15px;
+}
+*/
+
+body
+{
+    background: url('assets/images/fond.jpg');
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+
+#bloc_page
+{
+    width: 90%;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: 'York, serif';
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header h1
+{
+    font-family: 'YorkBaile', serif;
+    font-size: 3.5em;
+    font-weight: normal;
+	color : #58585a;
+    margin: 30px 0 0 10px;
+	display : inline-block;
+	vertical-align : top;
+}
+
+header h2
+{
+	display : block;
+    font-family: 'YorkBaile', serif;
+    font-size: 1.5em;
+	color : #58585a;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    margin-right: 15px;
+	display : inline;
+	border : solid #58585a 2px;
+	border-radius : 5px;
+	padding : 3px;
+}
+
+nav a
+{
+    font-size: 1.2em;
+    color: #58585a;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:visited
+{
+	text-decoration : none;
+}
+
+nav a:hover
+{
+    color: red;
+}
+
+.position
+{
+	border : dashed #58585a 2px;
+}
+
+/*
+body
+{
+	background-image : url(assets/images/fond.jpg);
+	width : 80%
+}
+
+ HEADER
+
+header
+{
+	display : flex;
+	border : solid black 1px;
+}
+
+
+header h1
+{
+	font-family : 'YorkBaile', arial, sans-serif;
+	font-size : 4em;
+	color : #58585a;
+	margin: 0 0 0 10px;
+	display : inline-block;
+	vertical-align : top;
+	margin-top : 0.5em;
+	border : solid black 1px;
+}
+
+header h2
+{
+	font-family : 'YorkBaile', arial, sans-serif;
+	font-size : 1.1em;
+	margin-top : 0px;
+	font-weight : normal;
+	display : block;
+	border : solid black 1px;
+}
+
+nav
+{
+	display : block;
+	width : 100%;
+	height : 100px;
+	border : solid black 1px;
+}
+
+nav ul
+{
+	list-style-type:none;
+}
+
+nav li
+{
+	display: inline-block;
+	text-align: center;
+	border : solid black 1px;
+}
+
+nav a
+{
+	
+	color : #181818;
+	text-decoration : none;
+	display : inline-block;
+}
+
+nav a:hover
+{
+	color : #760001;
+	border-bottom : 3px solid #760001;
+}
+*/
