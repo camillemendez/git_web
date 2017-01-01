@@ -31,37 +31,103 @@
 			
 			<section>
 				<article>
-					<div>
+					<h1>Une page simple et quelques chemins</h1>
+					<p>Vous vous situez donc sur l'Index du site Web. Cette page n'as pas vraiment d'utilité, si ce n'est de relier les autres, et, de vous accueillir.
+					Elle est un peu là parce qu'elle doit l'être, elle n'a pas vraiment choisi d'exister. Peut-être que sa raison même d'exister revient à lister des projets.</p>
+					<p>Sinon, vu que son développeur est sympa, et qu'il doit combler de l'espace, il vous y a pondu quelques <em>easters-egg</em>. Ils sont au nombre de %@"#µ
+					et sont un peu cachés quand même. Cliquez de manière astucieuse et vous serez redirigés vers des Pages Web peu communes.</p>
+				
+					<h1>À mon propos</h1>
+					<p>Qu'en est-il du développeur, donc, de ce site ? Eh bien je m'appelle Camille, et je suis étudiant
+					à l'IUT Lyon 1, département Informatique aussi logique que cela puisse paraître.
+					Puisque je manque cruellement de texte pour combler cette page, la faute à mon organisation, voici ci-dessous le formulaire
+					de contact pour... eh bien me contacter.
+					Si besoin en fin de chaque page se trouve également un lien renvoyant à ce formulaire !</p>
 					
-					</div>
-					
-					<div>
-					
-					</div>
+					<h1 id="ancre_contact">Me contacter</h1>
+					<form method="post" action="traitement.php">
+						<fieldset>
+							<legend>Facultatif</legend>
+							<div class="formulaire">
+								<label for="nom">Nom</label>
+								<input type="text" name="nom" id="nom" placeholder="Ex : Donald"/>
+							</div>
+							<div class="formulaire">
+								<label for="prenom">Prénom</label>
+								<input type="text" name="prenom" id="prenom" placeholder="Ex : Trump"/>
+							</div>
+							<div class="formulaire">
+								<label for="age">Âge</label>
+								<input type="number" name="age" id="age" min="15" max="90" placeholder="15-90"/>
+							</div>
+							<div class="formulaire">
+								<label for="pays">De quelle région êtes vous originaire ?</label>
+								<select name="pays" id="pays">
+									<option value="eu">Europe</option>
+									<option value="as">Asie</option>
+									<option value="na">Amérique du Nord</option>
+									<option value="sa">Amérique du Sud</option>
+									<option value="oc">Océanie</option>
+								</select>
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Obligatoire</legend>
+							<div class="formulaire">
+								<label for="email">e-mail</label>
+								<input type="email" name="email" id="email"/>
+							</div>
+							<div id="formulaire_msgbox">
+								<label for="message">Votre message</label>
+								<textarea name="message" id="message" rows="10" cols="50" placeholder="Ex : Ce site est vraiment génial !"></textarea>
+							</div>
+						</fieldset>
+						<input id="send_button" type="submit" value="Envoyer" />
+					</form>
 				</article>
-				
-				<div> <!-- aside -->
-				
+				<div id="asides">
+					<aside id="fred"> <!-- aside -->
+						<img class="photo_cps" src="assets/images/easter.jpg" width=230 alt="Fred" title="Ça par exemple, c'est un easter-egg">
+						<p>Mais dis moi Jamy, c'est quoi un <em>easter-egg</em> ?</p>
+					</aside>
+					<aside id="jamy">
+						<img class="photo_cps" src="assets/images/cps.jpg" height=212 alt="Mac Lesggy" title="*TV qui s'éteint*">
+						<h1>Eh bien Fred, c'est tout simple.</h1>
+						<p>Un <em>easter-egg</em> (terme anglais pour « œuf de Pâques ») est, en informatique ou dans les jeux vidéo, 
+						une fonction cachée au sein d'un programme (animation, jeu, message, etc.) 
+						accessible grâce à un mot-clé ou à une combinaison de touches ou de clics.</p>
+						
+						<p>Un <em>easter-egg</em> n'est pas assimilable à un virus : il n'abîme ni le programme original ni les autres données et 
+						ne se propage pas ; il est caché et a été inséré volontairement par les développeurs. Il peut s'agir de la liste des auteurs du logiciel, d'un jeu, d'une blague, 
+						d'une séquence inédite, de bruitages ainsi que les clins d'œil ou les références.</p>
+					</aside>
 				</div>
 			</section>
 			
 			<footer> <!-- Pied de page -->
 				<div id="annotations">
+				<h1>Annotations</h1>
+					<p>Page Créée par Camille | Retourner <a href="">en haut</a></p>
+					<p><a href="#ancre_contact">Me contacter</a><p>
 				</div>
 				
 				<div id="sources">
 					<h1>Sources</h1>
 					<ul>
-						<li><a href="" target="_blank"></a></li>
-						<li><a href="" target="_blank"></a></li>
-						<li><a href="" target="_blank"></a></li>
-						<li><a href="" target="_blank"></a></li>
-						<li><a href="" target="_blank"></a></li>
+						<li><a href="https://fr.wikipedia.org/" target="_blank">Wikipedia</a></li>
+						<li><a href="https://www.google.fr/imghp?hl=fr&ei=TtBmWJ2VG4eua-iAlOgP&ved=0EKouCAIoAQ" target="_blank">Google Image</a></li>
+						<li><a href="https://liris.cnrs.fr/amelie.cordier/wiki/doku.php?id=ens:2016_aut_web" target="_blank">Sujet du Projet</a></li>
+						<li><a href="http://liris.cnrs.fr/~pchampin/enseignement/intro-web/" target="_blank">Cours de Web</a></li>
+						<li><a href="http://www.theuselessweb.com/" target="_blank">Ce Site qui distrait</a></li>
 				</div>
 				
 				<div id="supplements">
-					<h1>Banque d'images</h1>
-					<p id="banqueimage"><a href=""><img src="" alt="" title=""></a><a href=""><img src="" alt="" title=""></a><a href=""><img src="" alt="" title=""></a><a href=""><img src="" alt="" title=""></a></p>
+					<h1>Banque d'images - Posters S1</h1>
+					<p id="banqueimage">
+					<a href="assets/images/image1.png" target="_blank"><img src="assets/images/tn_image1.png" alt="Exemple de Poster de S1" title="Cliquez pour agrandir"></a>
+					<a href="assets/images/image2.png" target="_blank"><img src="assets/images/tn_image2.png" alt="Exemple de Poster de S1" title="Cliquez pour agrandir"></a>
+					<a href="assets/images/image3.jpg" target="_blank"><img src="assets/images/tn_image3.jpg" alt="Exemple de Poster de S1" title="Cliquez pour agrandir"></a>
+					</p>
 				</div>
 			</footer>
         </div>
