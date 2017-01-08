@@ -1,65 +1,258 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<!-- En-t�te de la page -->
+		<!-- En-tête de la page -->
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="shortcut icon" href="assets/images/favicon.ico" >
-		<title>Projet Web - Les Projets Tuteur�s</title>
+		<title>Projet Web - Les Projets Tuteurés</title>
     </head>
 
     <body> <!-- Corps de la page -->
 		<div id="bloc_page"> <!-- Bloc page -->
-			<header>
+			<header id="header">
 				<div id="titre_principal"> <!-- Titre et logo -->
 					<div id="logo">
 						<a href="http://iut.univ-lyon1.fr/" target ="_blank"><img src="assets/images/iutv2.png" alt="Logo IUT" title="IUT LYON 1"></a>
-						<h1>PROJETS TUTEURES - LES SUJETS </h1>
+						<h1>PROJETS TUTEURÉS - LES SUJETS </h1>
 					</div>
-					<h2>Bonjour et bienvenue sur le site ! Tout ce que vous d<a id="secret"href="https://www.google.fr/search?q=42&oq=42&aqs=chrome.0.69i59j0l5.872j0j7&sourceid=chrome&ie=UTF-8" target="_blank">e</a>vez savoir sur les Projets IUT</h2>
+					<h2>Bonjour et bienvenue sur le site ! Tout ce que vous d<a id="secret" href="https://www.google.fr/search?q=42&oq=42&aqs=chrome.0.69i59j0l5.872j0j7&sourceid=chrome&ie=UTF-8" target="_blank">e</a>vez savoir sur les Projets IUT</h2>
 				</div>
 				
 				<nav> <!-- Balise de navigation avec les liens des autres pages -->
                     <ul>
-                        <li><a href="Index.html">Accueil</a></li>
-                        <li><a href="ptut.html">Un projet tuteure, c'est quoi ?</a></li>
-                        <li><a href="smartphones.html">Projet Tuteure : L'evolution des smartphones</a></li>
-                        <li class="position"><a href="liste.html">La liste de vos sujets</a></li>
+                        <li class="bandeau1"><a href="Index.html">Accueil</a></li>
+                        <li class="bandeau2"><a href="ptut.html">Un projet tuteuré, c'est quoi ?</a></li>
+                        <li class="bandeau3"><a href="smartphones.html">Projet Tuteuré : L'évolution des smartphones</a></li>
+                        <li class="position" class="bandeau4"><a href="liste.html">La liste de vos sujets</a></li>
                     </ul>
                 </nav>
 			</header>
 			
-			<section>
+			<section id="tableau">
 				<article>
 					<div>
-					
+						
 					</div>
 					
 					<div>
-					
+						<table>
+						   <caption>Liste des sujets - S1</caption>
+							
+							<thead>
+							   <tr>
+								   <th>Sujet</th>
+								   <th>Tuteur</th>
+								   <th>Libre (Oui/Non)</th>
+								   <th>Intitulé</th>
+								   <th>Description</th>
+							   </tr>
+							</thead>
+							
+							<tfoot>
+								<tr>
+								   <th>Sujet</th>
+								   <th>Tuteur</th>
+								   <th>Libre (Oui/Non)</th>
+								   <th>Intitulé</th>
+								   <th>Description</th>
+							   </tr>
+							</tfoot>
+							
+							<tbody>
+							   <tr>
+								   <td>1</td>
+								   <td>Jaloux Christophe</td>
+								   <td>Non</td>
+								   <td>L'évolution des smartphones</td>
+								   <td>Iphone 7, Samsung Galaxy 7, ... chaque année, les nouvelles générations de smartphones font leur apparition : apportent-ils de vraies nouveautés technologique ou s'agit-il seulement d'une opération marketing ?</td>
+							   </tr>
+							   <tr>
+								   <td>2</td>
+								   <td>Joubert Aude</td>
+								   <td>Non</td>
+								   <td>L'évolution des système de cryptographie</td>
+								   <td>Présentations des différentes méthodes existantes des débuts de la cryptographie à nos jours</td>
+							   </tr>
+							   <tr>
+								   <td>3</td>
+								   <td>Jaloux Christophe</td>
+								   <td>Non</td>
+								   <td>Le come-back du retro-gaming</td>
+								   <td>Alors que les capacités des processeurs et des cartes graphiques ne cessent d'augmenter, la mode est plutôt aux jeux old-school. Quelles sont les raisons pour ce "retour en arrière" ?</td>
+							   </tr>
+							   <tr>
+								   <td>4</td>
+								   <td>Leroux Stéphane</td>
+								   <td>Non</td>
+								   <td>Les Moocs : avenir de l'enseignement ?</td>
+								   <td>Les cours-video se multiplient et les universités suivent le mouvement avec une offre de plus en plus grande de Moocs. L'enseignement en présentiel peut-il disparaitre ?</td>
+							   </tr>
+							   <tr>
+								   <td>5</td>
+								   <td>Cordier Amélie</td>
+								   <td>Non</td>
+								   <td>Le robot Poppy et la pédagogie</td>
+								   <td>Poppy est une plateforme robotique pédagogique Open Source. Quels usages peut-on en faire pour la pédagogie ? Quels sont les projets existants, leur état d'avancement, etc.</td>
+							   </tr>
+							   <tr>
+								   <td>6</td>
+								   <td>Cordier Amélie</td>
+								   <td>Oui</td>
+								   <td>La gestion de projet Agile</td>
+								   <td>Agile De plus en plus d'entreprises travaillent en mode Agile : Scrum, Lean Management, Kanban, Planning Poker, késako ? Que nous apportent tous ces nouveaux buzz-words et les concepts qu'ils cachent ?</td>
+							   </tr>
+							   <tr>
+								   <td>7</td>
+								   <td>Cordier Amélie</td>
+								   <td>Non</td>
+								   <td>Qualité de code ? Mythe ou réalité ?</td>
+								   <td>Qu'est-ce que la qualité de code ? Quels outils et quelles méthodes déployer pour assurer la qualité du code ? Comment l'assurer ? Quels sont les conséquences d'un code de mauvaise qualité ?</td>
+							   </tr>
+							   <tr>
+								   <td>8</td>
+								   <td>Cordier Amélie</td>
+								   <td>Non</td>
+								   <td>Les applications de la robotique sociale</td>
+								   <td>Ça y est ! Les robots envahissent notre environnement... et non plus seulement les usines ! Mais que sont-ils capables de faire exactement ? Et que peut-on attendre dans les 5 prochaines années ? Les films de science-fiction ont-ils raison ? Allons-nous être dominés puis détruits par les robots ?</td>
+							   </tr>
+							   <tr>
+								   <td>9</td>
+								   <td>Cordier Amélie</td>
+								   <td>Non</td>
+								   <td>AlphaGo</td>
+								   <td>AlphaGo, un mélange d'IA, de deeplearning et de puissance de calcul inimaginable, a battu Lee Sedol au Go. C'est (soi-disant) un exploit. Pourquoi ? Comment fonctionne AlphaGo ? Et surtout, pourquoi tout le monde considère cette prouesse comme une avancée significative pour l'intelligence artificielle ?</td>
+							   </tr>
+							   <tr>
+								   <td>10</td>
+								   <td>Gonçalves Isabelle</td>
+								   <td>Non</td>
+								   <td>Accessibilité du web</td>
+								   <td>Qu'est-ce que c'est ? Où en est-on ? Quelles perspectives ?</td>
+							   </tr>
+							   <tr>
+								   <td>11</td>
+								   <td>Joubert Aude</td>
+								   <td>Non</td>
+								   <td>Le phénomène Pokémon Go</td>
+								   <td>Quelles sont les technologies utilisées ? Qu'est ce qui justifie un tel engouement pour ce jeu ?</td>
+							   </tr>
+							   <tr>
+								   <td>12</td>
+								   <td>Vincent Vidal</td>
+								   <td>Oui</td>
+								   <td>Evolution de la consommation de l'information</td>
+								   <td>Evolution de la consommation de l'information(micro consommation [le snaking]: vidéos de 45 secondes sans son mais avec des textes courts, 40% des articles re-twittés le sont qu'à partir du titre, comment fidéliser ses lecteurs [de la consommation-distraction?]): les raisons et les perspectives?</td>
+							   </tr>
+							   <tr>
+								   <td>13</td>
+								   <td>Vincent Vidal</td>
+								   <td>Oui</td>
+								   <td>La communication entre l'homme et le robot</td>
+								   <td>Comment l'homme et la machine peuvent-ils communiquer, en particulier sur des choses nouvelles pour la machine ou pour l'homme (intégration du processus d'apprentissage dans les communications homme-machine)?</td>
+							   </tr>
+							   <tr>
+								   <td>14</td>
+								   <td>Véronique Deslandres</td>
+								   <td>Oui</td>
+								   <td>Les outils de visualisation</td>
+								   <td>Autrefois réservés aux spécialistes, les outils de visualisation de données se démocratisent. Comment ? Pour quels types de données ? Quels sont les changements apportés par le Big Data ?</td>
+							   </tr>
+							   <tr>
+								   <td>15</td>
+								   <td>Véronique Deslandres</td>
+								   <td>Non</td>
+								   <td>eSanté</td>
+								   <td>Les apps pour la santé se développent, modifiant complètement certaines branches de notre système de soins. Comment ? Quels sont les enjeux et les risques ?</td>
+							   </tr>
+							   <tr>
+								   <td>16</td>
+								   <td>Véronique Deslandres</td>
+								   <td>Non</td>
+								   <td>Smart City</td>
+								   <td>Imaginer la ville de demain, avec les bâtiments connectés, les routes connectées, les véhicules connectés, etc. Quels nouveaux services sont envisageables ? Qu'est-ce que ça implique pour l'accessibilité et les réseaux de données ?</td>
+							   </tr>
+							   <tr>
+								   <td>17</td>
+								   <td>Véronique Deslandres</td>
+								   <td>Non</td>
+								   <td>Escroqueries du WEB</td>
+								   <td>Les escroqueries sur Internet pullulent, et on observe une forte croissance ces dernières années. Quelles sont-elles ? Comment fonctionnent-elles ? Comment lutter ?</td>
+							   </tr>
+							   <tr>
+								   <td>18</td>
+								   <td>Véronique Deslandres</td>
+								   <td>Oui</td>
+								   <td>Systèmes multi-agents (SMA)</td>
+								   <td>Un système multi-agents est un système composé d'un ensemble d'agents autonomes, interagissant entre eux et avec l’environnement. Ces systèmes font partie de l’Intelligence Artificielle Distribuée. Quelles sont les différences avec l’IA centralisée ? Quels sont les champs d’application ?</td>
+							   </tr>
+							   <tr>
+								   <td>19</td>
+								   <td>Véronique Deslandres</td>
+								   <td>Non</td>
+								   <td>SAURON</td>
+								   <td>En aout 2016 a été découvert le virus SAURON qui existait sur certaines machines d'Etat depuis 5 ans. Comment est-ce possible ? Quels sont les auteurs, pour quelles fins ? Caractérsitiques et tendances du cyber-espionnage.</td>
+							   </tr>
+							   <tr>
+								   <td>20</td>
+								   <td>Jaloux Christophe</td>
+								   <td>Non</td>
+								   <td>Apprendre à programmer en jouant</td>
+								   <td>Leekwars, code combat, ...il existe de plus en plus d'applications en ligne pour apprendre le développement en s'amusant. Toutes ces applications se valent-elles ? Permettent-elles réellemet de progresser ou bien constituent-elles seulement des occupations ludiques ?</td>
+							   </tr>
+							   <tr>
+								   <td>21</td>
+								   <td>Olivesi Aurélie</td>
+								   <td>Non</td>
+								   <td>Travailler dans une SSII (ESN)</td>
+								   <td>Lorsqu'on se lance dans une carrière dans l'informatique on est souvent amené-e à se poser la question : dois-je travailler pour une SSII ? Il faut donc comprendre comment fonctionne une SSII et quelles sont les
+									spécificités du travail en SSII par rapport au travail dans une entreprise classique.</td>
+							   </tr>
+							   <tr>
+								   <td>22</td>
+								   <td>Champin Pierre-Antoine</td>
+								   <td>Oui</td>
+								   <td>Automates cellulaires</td>
+								   <td>Les automates cellulaires (comme par exemple le jeu de la vie de Conway et la fourmi de Langton) sont des simulations de systèmes vivants, basés sur des règles extrèmement simples, mais donnant des
+									résultats souvent complexes, et parfois fascinant. Plus étonnant, ils sont capables de se reproduire eux-mêmes, ou de simuler des ordinateurs...
+									L'objectif du projet est de présenter le principe des automates cellulaires, les différents types d'automates cellulaires qui ont été proposés, et certaines de leurs propriétés.</td>
+							   </tr>
+							   <tr>
+								   <td>23</td>
+								   <td>Ayme Pascale</td>
+								   <td>Non</td>
+								   <td>Disruptive innovation</td>
+								   <td>N/A</td>
+							   </tr>
+							   <tr>
+								   <td>24</td>
+								   <td>Champin Pierre-Antoine</td>
+								   <td>Non</td>
+								   <td>Les algorithmes des moteurs de recherche</td>
+								   <td>N/A</td>
+							   </tr>
+							</tbody>
+						</table>
 					</div>
 				</article>
-				
-				<div> <!-- aside -->
-				
-				</div>
 			</section>
 			
 			<footer> <!-- Pied de page -->
 				<div id="annotations">
 				<h1>Annotations</h1>
-					<p>Page Cr��e par Camille | Retourner <a href="">en haut</a></p>
-					<p><a href="#ancre_contact">Me contacter</a><p>
+					<p>Page Créée par Camille | Retourner <a href="">en haut</a></p>
+					<p><a href="Index.html#ancre_contact">Me contacter</a><p>
 				</div>
 				
 				<div id="sources">
 					<h1>Sources</h1>
 					<ul>
-						<li><a href="https://fr.wikipedia.org/" target="_blank">Wikipedia</a></li>
+						<li><a href="https://fr.wikipedia.org/" target="_blank">Wikipédia</a></li>
 						<li><a href="https://www.google.fr/imghp?hl=fr&ei=TtBmWJ2VG4eua-iAlOgP&ved=0EKouCAIoAQ" target="_blank">Google Image</a></li>
 						<li><a href="https://liris.cnrs.fr/amelie.cordier/wiki/doku.php?id=ens:2016_aut_web" target="_blank">Sujet du Projet</a></li>
 						<li><a href="http://liris.cnrs.fr/~pchampin/enseignement/intro-web/" target="_blank">Cours de Web</a></li>
 						<li><a href="http://www.theuselessweb.com/" target="_blank">Ce Site qui distrait</a></li>
+					</ul>
 				</div>
 				
 				<div id="supplements">

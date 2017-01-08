@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<!-- En-t�te de la page -->
+		<!-- En-tête de la page -->
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="shortcut icon" href="assets/images/favicon.ico" >
-		<title>Projet Web - Les Projets Tuteur�s</title>
+		<title>Projet Web - Les Projets Tuteurés</title>
     </head>
 
     <body> <!-- Corps de la page -->
@@ -14,17 +14,17 @@
 				<div id="titre_principal"> <!-- Titre et logo -->
 					<div id="logo">
 						<a href="http://iut.univ-lyon1.fr/" target ="_blank"><img src="assets/images/iutv2.png" alt="Logo IUT" title="IUT LYON 1"></a>
-						<h1>PROJETS TUTEURES - EXEMPLE</h1>
+						<h1>PROJETS TUTEURÉS - EXEMPLE</h1>
 					</div>
 					<h2>Bonjour et bienvenue sur le site ! Tout ce que vous devez savoir sur les Projets IUT</h2>
 				</div>
 				
 				<nav> <!-- Balise de navigation avec les liens des autres pages -->
                     <ul>
-                        <li><a href="Index.html">Accueil</a></li>
-                        <li><a href="ptut.html">Un projet tuteure, c'est quoi ?</a></li>
-                        <li class="position"><a href="smartphones.html">Projet Tuteure : L'evolution des smartphones</a></li>
-                        <li><a href="liste.html">La liste de vos sujets</a></li>
+                        <li class="bandeau1"><a href="Index.html">Accueil</a></li>
+                        <li class="bandeau2"><a href="ptut.html">Un projet tuteuré, c'est quoi ?</a></li>
+                        <li class="position" class="bandeau3"><a href="smartphones.html">Projet Tuteuré : L'évolution des smartphones</a></li>
+                        <li class="bandeau4"><a href="liste.html">La liste de vos sujets</a></li>
                     </ul>
                 </nav>
 			</header>
@@ -32,34 +32,88 @@
 			<section>
 				<article>
 					<div>
-					
+						<img src="assets/images/image1.png" width=100% alt="smartphone" title="Poster - L'évolution des Smartphones">
 					</div>
 					
 					<div>
-					
+						<h1>L'évolution des smartphones, notre sujet de S1</h1>
+						<p>Quelle belle affiche, n'est-ce pas ?</p>
+						<p>Pour l'anecdote, ce sujet a été traité de manière non exclusive : deux groupes ont travaillé dessus.
+						Notre design est cependant meilleur, et je ne dis pas ça parce que c'est de mon groupe dont il s'agit.</p>
+						<p>Je faisais donc partie d'un des deux groupes qui a choisi le sujet 1 (<em><a href="liste.html">liste des sujets</a></em>), de même
+						que mes coéquipiers Tom Béfieux, Alexandre Marin et Paul Poupet.</p>
+						<h1>Analysons l'affiche</h1>
+						<div id="notresujet">
+							<h2>Le choix du sujet</h2>
+							<p>En 2017, les smartphones sont omniprésents. Ce sujet parlait à chacun de nous, et nous intéressait vraiment : se renseigner, se documenter, 
+							découvrir, et en apprendre plus sur ces outils que nous utilisons au quotidien.</p>
+							<p>Le groupe s'est constitué facilement, nous étions tous en G2S1. Notre diversité et nos différents points de vue se sont très bien confrontés afin de rendre
+							le meilleur design possible.</p>
+							<h2>Le choix du design</h2>
+							<p>Le design, c'est justement la partie la plus importante du poster. Il doit attirer l'oeil, être le plus fidèle possible au thème, pour organiser les informations en conséquent.</p>
+							<p>Le choix de représenter une <em>phablette</em> (<em>Ph</em>one + T<em>ablette</em>) nous semblait donc totalement adapté au format, et au thème. 
+							Au début nous voulions représenter une frise chronologique sous forme de barre de progression d'une vidéo Youtube, mais nous avons finalement laché l'idée 
+							pour préferer un design plus simpliste, avec un fond d'écran et des dossiers ouverts, comme sur iPhone par exemple.</p>
+							<p>Il est bon de noter que nous n'avons pris part à aucun "camp" d'une marque quelconque en représentant un appareil inspiré de plusieurs d'entre elles, 
+							afin de rester neutre le plus possible et de s'assurer que tout le monde se retrouve dans notre poster.</p>
+							<h2>Le choix du contenu</h2>
+							<p>Le design c'est bien beau, encore faut-il savoir quoi mettre dedans. Pour cela nous avons opté pour une méthode de réflexion simple : Qu'est-ce qui définit un smartphone ?</p>
+							<p>Nous avons ensuite réfléchi ensemble pour sortir du lot 4 "blocs" qui sont nécessaires et complémentaires pour cerner le sujet :</p>
+							<ol>
+								<li>Qu'est-ce qu'un smartphone ?</li>
+								<li>Le Système d'Exploitation (OS)</li>
+								<li>Le Réseau</li>
+								<li>L'évolution des smartphones</li>
+							</ol>
+							<p>Nous nous sommes donc partagé les tâches, afin de pondre un text cohérent et résumé, mais essentiel. Un travail de tri a été effectué en amont de la part de chacun
+							de nous et en aval avec le reste du groupe afin d'associer le contenu au design.</p>
+							<p>Nous en sommes arrivés à un compromis qui se trouve être le poster ci-dessus. Celui-ci contient également quelques éléments cachés, pour les plus courageux !</p>
+						</div>
 					</div>
 				</article>
 				
-				<div> <!-- aside -->
-				
+				<div id="asides">
+						<aside class="aside1">
+							<a href="http://jackspinfo2017.corgiorgy.com/" target="_blank"> <img src="assets/images/coming.png" alt="coming" title="Cliquez sur l'Image"></a>
+							<p>2017.</p>
+							<p>Ils arrivent.</p>
+							<p>Préparez-vous.</p>
+						</aside>
+						
+						<aside class="aside2">
+							<img src="assets/images/nokia.jpg" width=230 alt="NokiaGo" title="Ne le lancez pas sur un Pokémon">
+							<h1>Voici un smartphone non évolué</h1>
+						</aside>
+						<aside class="aside3">
+							<img src="assets/images/socrate.jpg" width=230 alt="Socrate" title="Socrate pèse dans le game">
+							<h1><q>J'adore ce Site Web !</q></h1>
+							<p id="socrate">- Socrate</p>
+						</aside>
+						<aside class="aside4">
+							<img src="assets/images/thanks.png" width=230 alt="Merci" title="Tout est dans l'image">
+							<h1>Remerciements</h1>
+							<p>Je tiens à en profiter pour remercier Monsieur Jaloux, notre tuteur pour ce projet de S1, qui nous a initié et guidé sur le sujet, a 
+							approuvé notre design et nos idées, et a une photo particulièrement géniale !</p>
+						</aside>
 				</div>
 			</section>
 			
 			<footer> <!-- Pied de page -->
 				<div id="annotations">
 				<h1>Annotations</h1>
-					<p>Page Cr��e par Camille | Retourner <a href="">en haut</a></p>
-					<p><a href="#ancre_contact">Me contacter</a><p>
+					<p>Page Créée par Camille | Retourner <a href="">en haut</a></p>
+					<p><a href="Index.html#ancre_contact">Me contacter</a><p>
 				</div>
 				
 				<div id="sources">
 					<h1>Sources</h1>
 					<ul>
-						<li><a href="https://fr.wikipedia.org/" target="_blank">Wikipedia</a></li>
+						<li><a href="https://fr.wikipedia.org/" target="_blank">Wikipédia</a></li>
 						<li><a href="https://www.google.fr/imghp?hl=fr&ei=TtBmWJ2VG4eua-iAlOgP&ved=0EKouCAIoAQ" target="_blank">Google Image</a></li>
 						<li><a href="https://liris.cnrs.fr/amelie.cordier/wiki/doku.php?id=ens:2016_aut_web" target="_blank">Sujet du Projet</a></li>
 						<li><a href="http://liris.cnrs.fr/~pchampin/enseignement/intro-web/" target="_blank">Cours de Web</a></li>
 						<li><a href="http://www.theuselessweb.com/" target="_blank">Ce Site qui distrait</a></li>
+					</ul>
 				</div>
 				
 				<div id="supplements">
